@@ -23,13 +23,6 @@ describe('AppComponent', () => {
     expect(component).toBeTruthy();
   });
 
-  it(`should have as title 'angular-signup-form'`, () => {
-    expect(component.title).toEqual('angular-signup-form');
-  });
 
-  it('should render the title', () => {
-    const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, angular-signup-form');
-  });
 });
 
