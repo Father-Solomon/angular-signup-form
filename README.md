@@ -1,27 +1,63 @@
-# AngularSignupForm
+# Angular Signup Form
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.5.
+## Description
 
-## Development server
+This project implements a registration form using Angular, Angular Material and RxJS. The form includes fields for email, password and password confirmation with appropriate validation.
+
+## Prerequisites
+
+Before you continue, ensure you have met the following requirements:
+
+* You have installed the `20.15.1 || ^20.17.0` version of [Node.js](https://nodejs.org/uk/download/package-manager).
+* You have installed the `10.7.0 || 10.8.2` version of npm.
+* You have installed the `^18.2.5` version of the [Angular CLI](https://github.com/angular/angular-cli).
+
+If [Angular CLI](https://github.com/angular/angular-cli)  not already installed:
+
+   ```bash
+   npm install -g @angular/cli
+   ```
+
+## Project setup instructions:
+
+1. **Install the Angular CLI if not already installed:**
+
+   ```bash
+   npm install -g @angular/cli
+   ```
+
+2. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/Father-Solomon/angular-signup-form.git
+   cd signup-form-angular
+   ```
+
+3. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+## Running development server:
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
 ## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Run `ng test` to execute the unit tests via [Jest](https://github.com/jestjs/jest).
 
-## Running end-to-end tests
+## Using ESLint
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Run `ng lint` to execute Angular-adapted ESLint via [Angular ESLint](https://github.com/angular-eslint/angular-eslint).
 
-## Further help
+## Used Technologies
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.5.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+### List of additional technologies:
+- Angular Material
+- RxJS
+- ESLint
+- Jest
+
+## Author
+- [Anton Kucherenko](https://github.com/Father-Solomond)
