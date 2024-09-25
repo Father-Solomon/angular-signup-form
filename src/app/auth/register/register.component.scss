@@ -1,0 +1,34 @@
+:host {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  .mat-mdc-card {
+    min-width: 400px;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .mat-mdc-input-element {
+      background-color: var(--mdc-filled-text-field-container-color, var(--mat-app-surface-variant)) !important;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+
+      .buttons {
+        margin: 1rem;
+        display: flex;
+        gap: 1rem;
+      }
+    }
+
+  }
+}
