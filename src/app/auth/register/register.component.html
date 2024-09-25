@@ -42,7 +42,7 @@
 <!--        registerForm.hasError('passwordMatch') ){-->
 <!--          <mat-error>Must match password field</mat-error>-->
 <!--        }-->
-        @if ($passwordNotMatch() && registerForm.controls.confirmPassword.dirty) {
+        @if ($passwordNotMatch()) {
           <mat-error>Must match password field</mat-error>
         }
       </mat-form-field>
