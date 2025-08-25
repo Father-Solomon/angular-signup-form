@@ -10,17 +10,15 @@ import {MatInputModule} from "@angular/material/input";
 import {MatIconModule} from "@angular/material/icon";
 import {MatProgressSpinnerModule} from "@angular/material/progress-spinner";
 import {RegisterService} from "./services/register.service";
-import {AsyncPipe} from "@angular/common";
 import {takeUntilDestroyed} from "@angular/core/rxjs-interop";
 
 
 @Component({
-  selector: 'app-register',
-  standalone: true,
-  imports: [MatCardModule, ReactiveFormsModule, MatButtonModule, MatFormFieldModule, MatInputModule, MatIconModule, MatProgressSpinnerModule, MatInputModule, AsyncPipe],
-  templateUrl: './register.component.html',
-  styleUrl: './register.component.scss',
-  changeDetection: ChangeDetectionStrategy.OnPush,
+    selector: 'app-register',
+    imports: [MatCardModule, ReactiveFormsModule, MatButtonModule, MatFormFieldModule, MatInputModule, MatIconModule, MatProgressSpinnerModule, MatInputModule],
+    templateUrl: './register.component.html',
+    styleUrl: './register.component.scss',
+    changeDetection: ChangeDetectionStrategy.OnPush
 })
 export default class RegisterComponent {
   // @Output() register = new EventEmitter<ICredentials>();
