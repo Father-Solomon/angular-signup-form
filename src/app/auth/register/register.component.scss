@@ -14,7 +14,7 @@
     align-items: center;
 
     .mat-mdc-input-element {
-      background-color: var(--mdc-filled-text-field-container-color, var(--mat-app-surface-variant)) !important;
+      background-color: var(--mat-form-field-filled-container-color, var(--mat-app-surface-variant)) !important;
     }
 
     form {
